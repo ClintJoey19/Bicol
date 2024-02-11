@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularFoods = () => {
   return (
-    <section className="bg-black text-white w-full flex justify-center">
+    <section className="w-full flex justify-center py-10">
       <div className="w-[80%] flex flex-col items-center">
         <h2 className="text-4xl mb-5">Popular Foods</h2>
         <p>

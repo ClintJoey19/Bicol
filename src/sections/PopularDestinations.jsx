@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { popularDestinations } from "../assets/destinations";
-import Slider from "../components/Slider";
 import Right from "@mui/icons-material/ChevronRightRounded";
 import Left from "@mui/icons-material/ChevronLeftRounded";
 import "../slider.css";
@@ -19,7 +18,7 @@ const PopularDestinations = () => {
       : setDestination((d) => d - 1);
   };
   return (
-    <section className="bg-black text-white w-full flex flex-col items-center gap-5 py-5">
+    <section className="bg-black text-white w-full flex flex-col items-center gap-5 py-10">
       <div className="w-[80%] flex flex-col items-center">
         <h2 className="text-4xl mb-5">Popular Destinations</h2>
         <p>

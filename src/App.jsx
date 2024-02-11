@@ -1,6 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { Hero, AboutUs, PopularDestinations, PopularFoods } from "./sections";
+import {
+  Hero,
+  AboutUs,
+  PopularDestinations,
+  PopularFoods,
+  Footer,
+} from "./sections";
 
 const App = () => {
   return (
@@ -10,6 +16,7 @@ const App = () => {
       <AboutUs />
       <PopularDestinations />
       <PopularFoods />
+      <Footer />
     </main>
   );
 };
