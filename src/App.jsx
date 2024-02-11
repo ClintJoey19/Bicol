@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { Hero, AboutUs } from "./sections";
+import { Hero, AboutUs, PopularDestinations, PopularFoods } from "./sections";
 
 const App = () => {
   return (
@@ -8,6 +8,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <AboutUs />
+      <PopularDestinations />
+      <PopularFoods />
     </main>
   );
 };
