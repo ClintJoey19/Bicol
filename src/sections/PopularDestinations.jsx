@@ -26,7 +26,7 @@ const PopularDestinations = () => {
           destinations
         </p>
       </div>
-      <div className="w-[80%] max-lg:w-[90%] h-[600px] relative overflow-hidden bg-white rounded-lg">
+      <div className="w-[80%] max-lg:w-[90%] h-[500px] relative overflow-hidden bg-white rounded-lg">
         <div
           className="w-full h-full flex justify-center pt-10"
           style={{
