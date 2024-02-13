@@ -46,7 +46,7 @@ export const reviews = [
   {
     name: "Maria Del Rosario",
     title: "Enchanting Bicol Experience",
-    desc: "The Bicol Region is truly enchanting! From the majestic Mayon Volcano to the pristine beaches of Caramoan, every corner is a sight to behold. The warmth of the locals adds a special charm to the experience. Don't miss trying out the spicy Bicol Express and indulging in the region's rich cultural heritage. Bicol is a gem waiting to be explored!",
+    desc: "The Bicol Region is truly enchanting! From the majestic Mayon Volcano to the pristine beaches of Caramoan, every corner is a sight to behold. The warmth of the locals adds a special charm to the experience.",
     img: Female1,
   },
   {
@@ -58,7 +58,7 @@ export const reviews = [
   {
     name: "Sofia Ramirez",
     title: "Breathtaking Beauty Beyond Words",
-    desc: "Bicol Region is a land of breathtaking beauty that words cannot fully capture. The perfectly conical shape of Mayon Volcano against the azure sky is a sight that will stay with you forever. The region's rich biodiversity, from whale sharks in Donsol to fireflies in Sorsogon, makes every excursion an unforgettable experience. Prepare to be awestruck by the wonders of Bicol!",
+    desc: "Bicol Region is a land of breathtaking beauty that words cannot fully capture. The perfectly conical shape of Mayon Volcano against the azure sky is a sight that will stay with you forever. The region's rich biodiversity, from whale sharks in Donsol to fireflies in Sorsogon, makes every excursion an unforgettable experience. Prepare to be awestruck by the wonders of Bicol. Don't miss trying out the spicy Bicol Express and indulging in the region's rich cultural heritage. Bicol is a gem waiting to be explored!",
     img: Female2,
   },
   {
@@ -70,7 +70,7 @@ export const reviews = [
   {
     name: "Isabella Fernandez",
     title: "Adventure Awaits in Bicol",
-    desc: "Bicol Region is a playground for adventure seekers! Whether you're surfing the waves of Bagasbas Beach or rappelling down the cliffs of Caramoan, adrenaline-pumping experiences abound. For nature lovers, exploring the hidden waterfalls of Camarines Sur or spelunking in the caves of Albay are must-do activities. Get ready to unleash your inner adventurer in Bicol!",
+    desc: "Bicol Region is a playground for adventure seekers! Whether you're surfing the waves of Bagasbas Beach or rappelling down the cliffs of Caramoan, adrenaline-pumping experiences abound. ",
     img: Female3,
   },
   {
