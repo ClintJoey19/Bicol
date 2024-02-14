@@ -2,11 +2,11 @@ import React from "react";
 import { reviews } from "../constants";
 
 const Testimonials = () => {
-  const reviewStyle = "bg-black text-white rounded-md p-5";
+  const reviewStyle = "bg-black text-white rounded-xl p-5";
   return (
     <section className="flex flex-col items-center py-10">
       <h2 className="text-4xl mb-5">Here's What People Say</h2>
-      <div className="w-[80%] p-5 grid grid-cols-4 auto-rows-[300px] gap-4">
+      <div className="w-[80%] p-5 grid grid-cols-4 auto-rows-[300px] gap-2">
         {reviews.map((item, i) => (
           <div
             key={i}

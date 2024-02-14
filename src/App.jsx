@@ -6,6 +6,7 @@ import {
   PopularDestinations,
   PopularFoods,
   Testimonials,
+  Review,
   Footer,
 } from "./sections";
 
@@ -18,6 +19,7 @@ const App = () => {
       <PopularDestinations />
       <PopularFoods />
       <Testimonials />
+      <Review />
       <Footer />
     </main>
   );
