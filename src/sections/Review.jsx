@@ -1,5 +1,6 @@
 import React from "react";
 import SendIcon from "@mui/icons-material/Send";
+import { BicolMap } from "../assets/images";
 
 const Review = () => {
   return (
@@ -11,6 +12,11 @@ const Review = () => {
           and inspiring fellow travelers while helping us continuously enhance
           the region's allure!
         </p>
+        <div
+          className="w-[80%] h-[30rem] bg-black/40 bg-blend-overlay rounded-md overflow-hidden mt-5"
+          style={{ backgroundImage: `url(${BicolMap})` }}
+        ></div>
+
         <div className="w-[80%] pt-4 flex justify-center gap-2">
           <input
             type="text"
