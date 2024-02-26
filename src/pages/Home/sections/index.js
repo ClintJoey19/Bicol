@@ -4,7 +4,6 @@ import PopularDestinations from "./PopularDestinations";
 import PopularFoods from "./PopularFoods";
 import Testimonials from "./Testimonials";
 import Review from "./Review";
-import Footer from "./Footer";
 
 export {
   Hero,
@@ -13,5 +12,4 @@ export {
   PopularFoods,
   Testimonials,
   Review,
-  Footer,
 };

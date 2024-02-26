@@ -5,6 +5,7 @@ import HeroButton from "../components/HeroButton";
 const Hero = () => {
   return (
     <section
+    id="home"
       className="bg-blend-overlay bg-black/50 pt-[3.2rem] bg-cover w-full h-screen bg-top bg-fixed"
       style={{ backgroundImage: `url(${heroImg})` }}
     >

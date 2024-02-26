@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import {Navbar, Footer} from "../../components";
 import {
   Hero,
   AboutUs,
@@ -7,8 +7,7 @@ import {
   PopularFoods,
   Testimonials,
   Review,
-  Footer,
-} from "./sections";
+} from "../../sections";
 
 const App = () => {
   return (

@@ -86,3 +86,18 @@ export const reviews = [
     img: Male3,
   },
 ];
+
+export const socials = [
+  {
+    name: "Facebook",
+    link: "https://www.facebook.com/"
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/"
+  },
+  {
+    name: "X",
+    link: "https://twitter.com/"
+  }
+]

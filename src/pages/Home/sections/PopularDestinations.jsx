@@ -18,7 +18,7 @@ const PopularDestinations = () => {
       : setDestination((d) => d - 1);
   };
   return (
-    <section className="bg-black text-white w-full flex flex-col items-center gap-5 py-10">
+    <section id="destinations" className="bg-black text-white w-full flex flex-col items-center gap-5 py-10">
       <div className="w-[80%] flex flex-col items-center">
         <h2 className="text-4xl mb-5">Popular Destinations</h2>
         <p>

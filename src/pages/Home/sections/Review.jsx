@@ -12,9 +12,10 @@ const Review = () => {
           and inspiring fellow travelers while helping us continuously enhance
           the region's allure!
         </p>
+        {/* TODO: Integrate google earth API to show bicol map */}
         <div
-          className="w-[80%] h-[30rem] bg-black/40 bg-blend-overlay rounded-md overflow-hidden mt-5"
-          style={{ backgroundImage: `url(${BicolMap})` }}
+          className="w-[80%] h-[40rem] bg-black/40 bg-blend-overlay rounded-md overflow-hidden mt-5"
+          style={{ backgroundImage: `url(${BicolMap})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
         ></div>
 
         <div className="w-[80%] pt-4 flex justify-center gap-2">
